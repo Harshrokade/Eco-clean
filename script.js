@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const products = [
         {
             id: 1,
-            name: "Organic Honey",
+            name: "Moringa Powder",
             price: 450,
             image: "assets/products/IMG-20251215-WA0001.jpg",
             desc: "Pure, forest-collected wild honey with no added sugar or preservatives.",
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 2,
-            name: "Cold Pressed Coconut Oil",
+            name: "Onion Powder",
             price: 320,
             image: "assets/products/IMG-20251215-WA0003.jpg",
             desc: "Extracted from premium quality coconuts using traditional wood-pressing methods.",
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 3,
-            name: "Organic Turmeric Powder",
+            name: "Garlic Powder",
             price: 180,
             image: "assets/products/IMG-20251215-WA0004.jpg",
             desc: "High curcumin wild turmeric powder, perfect for cooking and immunity.",
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 4,
-            name: "Himalayan Pink Salt",
+            name: "Tomato Powder",
             price: 150,
             image: "assets/products/IMG-20251215-WA0005.jpg",
             desc: "Mineral-rich pink salt sourced directly from the Himalayas.",
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 5,
-            name: "Organic Quinoa",
+            name: "Turmeric Powder",
             price: 550,
             image: "assets/products/IMG-20251215-WA0006.jpg",
             desc: "Protein-packed organic quinoa, a perfect superfood for your diet.",
