@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Reach | 100% Organic Products</title>
+    <meta name="description"
+        content="Eco Reach provides 100% organic, farm-fresh products. Sustainable, pure, and healthy for you and the planet.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="leaf-loader">
+            <i class="fas fa-leaf"></i>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Eco Reach<span class="dot">.</span></a>
+
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#organic" class="nav-link">Why Organic</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="tel:+919876543210" class="btn btn-call"><i class="fas fa-phone-alt"></i> Call Now</a>
+                <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <div class="mobile-nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#organic">Why Organic</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="close-menu"><i class="fas fa-times"></i></button>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <span class="badge fade-in-up">100% Organic Products</span>
+            <h1 class="fade-in-up delay-1">Pure Nature, <br>Delivered to You.</h1>
+            <p class="fade-in-up delay-2">Experience the freshness of farm-to-table organic products. Sustainable,
+                healthy, and ethically sourced for a better lifestyle.</p>
+            <div class="hero-btns fade-in-up delay-3">
+                <a href="#products" class="btn btn-primary">Shop Products <i class="fas fa-arrow-right"></i></a>
+                <a href="#about" class="btn btn-outline">Our Story</a>
+            </div>
+        </div>
+
+        <!-- Floating Elements -->
+        <div class="floating-leaf leaf-1"><i class="fas fa-leaf"></i></div>
+        <div class="floating-leaf leaf-2"><i class="fas fa-leaf"></i></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Our Story</span>
+                <h2>Rooted in Nature</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image reveal-left">
+                    <!-- Real Story Image -->
+                    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=2070&auto=format&fit=crop"
+                        alt="Organic Farming Story" class="story-img">
+                </div>
+                <div class="about-text reveal-right">
+                    <h3>Commitment to Purity</h3>
+                    <p>At Eco Reach, we believe that nature creates the best products. Our journey began with a simple
+                        mission: to bridge the gap between conscientious farmers and health-conscious consumers.</p>
+                    <p>We source only from certified organic farms that practice sustainable agriculture. No chemicals,
+                        no preservatives, just pure, unadulterated goodness.</p>
+
+                    <div class="trust-cards">
+                        <div class="trust-card">
+                            <i class="fas fa-certificate"></i>
+                            <span>Certified Organic</span>
+                        </div>
+                        <div class="trust-card">
+                            <i class="fas fa-box-open"></i>
+                            <span>Eco Packaging</span>
+                        </div>
+                        <div class="trust-card">
+                            <i class="fas fa-flask"></i>
+                            <span>Lab Tested</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Fresh Harvest</span>
+                <h2>Our Premium Selection</h2>
+                <p>Curated 100% organic products for your daily needs.</p>
+            </div>
+
+            <!-- Featured Product Slider -->
+            <div class="featured-products-slider">
+                <div class="slider-wrapper" id="featured-slider">
+                    <!-- JS will inject featured products here -->
+                </div>
+                <div class="slider-controls">
+                    <button id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button id="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <!-- Full Product Grid -->
+            <div class="product-grid" id="product-grid">
+                <!-- JS will inject products here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Organic Section -->
+    <section id="organic" class="why-organic">
+        <div class="container">
+            <div class="organic-content">
+                <h2>Why Choose 100% Organic?</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="icon-box"><i class="fas fa-ban"></i></div>
+                        <h3>No Pesticides</h3>
+                        <p>Free from harmful synthetic chemicals and pesticides.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon-box"><i class="fas fa-seedling"></i></div>
+                        <h3>Non-GMO</h3>
+                        <p>Grown from natural, unaltered seeds for better health.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon-box"><i class="fas fa-heartbeat"></i></div>
+                        <h3>Nutrient Rich</h3>
+                        <p>Packed with more vitamins and minerals than conventional produce.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Community Love</span>
+                <h2>Happy Customers</h2>
+            </div>
+
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"The freshness of Eco Reach products is unmatched. You can really taste the difference in every
+                        bite. Highly recommended!"</p>
+                    <div class="user-info">
+                        <h4>Priya Sharma</h4>
+                        <span>Wellness Coach</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Finally a brand I can trust for my family. The eco-friendly packaging is a huge plus. Love the
+                        commitment to sustainability."</p>
+                    <div class="user-info">
+                        <h4>Rahul Verma</h4>
+                        <span>Eco Activist</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Fast delivery and premium quality. The spices are so aromatic and pure. Will definitely order
+                        again!"</p>
+                    <div class="user-info">
+                        <h4>Sneha Gupta</h4>
+                        <span>Chef</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="subtitle">Get in Touch</span>
+                    <h2>We'd Love To Hear From You</h2>
+                    <p>Have questions about our products or sourcing? Reach out to us.</p>
+
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <span>Call Us</span>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span>Email Us</span>
+                                <p>hello@ecoreach.com</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span>Visit Us</span>
+                                <p>123 Green Valley, Organic Farms, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+
+                    <div class="whatsapp-hint">
+                        <i class="fab fa-whatsapp"></i> Also available on WhatsApp
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Eco Reach</h3>
+                <p>100% Organic Products for a healthier life.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#products">Shop</a>
+                <a href="#about">Our Story</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Subscribe for updates and organic tips.</p>
+                <form>
+                    <input type="email" placeholder="Email Address">
+                    <button><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Eco Reach. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="" alt="Product" id="modal-img">
+                </div>
+                <div class="modal-details">
+                    <span class="badge">100% Organic</span>
+                    <h2 id="modal-title">Product Name</h2>
+                    <p class="modal-price" id="modal-price">₹0.00</p>
+                    <p class="modal-desc" id="modal-desc">Description goes here.</p>
+                    <ul class="modal-benefits">
+                        <li><i class="fas fa-check"></i> Chemical Free</li>
+                        <li><i class="fas fa-check"></i> Farm Fresh</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Enquire Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
